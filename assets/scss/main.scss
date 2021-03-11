@@ -347,6 +347,7 @@ h1 {
 	font-size: 3.25em;
 	letter-spacing: -0.025em;
 	font-weight: 300;
+	line-height: 45px;
 
 	strong {
 		font-weight: 700;
@@ -1362,9 +1363,9 @@ body > article {
 			margin-bottom: 0;
 		}
 
-		p {
-			font-size: 1em;
-		}
+		// p {
+		// 	font-size: 1em;
+		// }
 	}
 
 	#contact {

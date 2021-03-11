@@ -319,6 +319,7 @@ h1 {
   font-size: 3.25em;
   letter-spacing: -0.025em;
   font-weight: 300;
+  line-height: 45px;
 }
 
 h1 strong {
@@ -2367,9 +2368,6 @@ body > article {
     width: 15em;
     height: 15em;
     margin-bottom: 0;
-  }
-  #top p {
-    font-size: 1em;
   }
   #contact footer {
     margin: 0;
