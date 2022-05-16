@@ -6,8 +6,13 @@
 
 function copyEmail() {
 	const myEmail = document.getElementById("email").innerText;
-	
+
+	navigator.clipboard.writeText(myEmail).then(() => {
+		console.log("Copied to clipboard");
+	});
+
 	document.getElementById("success-msg").style.display = "block";
+
 }
 
 (function($) {
