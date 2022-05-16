@@ -4,6 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function copyEmail() {
+	const myEmail = document.getElementById("email").innerText;
+	
+	document.getElementById("success-msg").style.display = "block";
+}
+
 (function($) {
 
 	var	$window = $(window),

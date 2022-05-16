@@ -198,9 +198,20 @@ html {
   color: #264de4;
 }
 
+#success-msg {
+  display: none;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: .4em;
+  border-radius: 3px 3px 3px 3px;
+  color: #270;
+  background-color: #DFF2BF;
+}
+
 .fa-envelope-square:hover,
 .fa-html5:hover {
   color: #e44d26;
+  cursor: pointer;
 }
 
 .photo-gallery {
