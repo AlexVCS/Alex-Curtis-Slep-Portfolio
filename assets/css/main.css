@@ -84,8 +84,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio {
   margin: 0;
   padding: 0;
   border: 0;
@@ -196,6 +195,12 @@ html {
 
 .fa-css3-alt:hover {
   color: #264de4;
+}
+
+#novu-pr {
+	width: 500px;
+	height: 500px;
+  border-radius: 5px;
 }
 
 #success-msg {
