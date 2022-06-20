@@ -84,8 +84,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio {
   margin: 0;
   padding: 0;
   border: 0;
@@ -206,6 +205,11 @@ html {
 .fa-envelope-square:hover,
 .fa-html5:hover {
   color: #e44d26;
+}
+
+#novu-pr {
+  width: 200px;
+  height: 100px;
 }
 
 .photo-gallery {
@@ -1930,17 +1934,14 @@ body > article {
   body {
     font-size: 11pt;
   }
-
   input,
 textarea,
 select {
     font-size: 11pt;
   }
-
   header {
     margin: 0 0 4em 0;
   }
-
   /* Wrappers */
   .wrapper {
     padding: 5em 0 5em 0;
@@ -1950,7 +1951,6 @@ select {
     margin: 2em 0 0 0;
     padding: 2em 0 2em 0;
   }
-
   /* Articles */
   #top {
     padding: 8em 0;
@@ -1978,7 +1978,6 @@ select {
   body {
     padding-top: 44px;
   }
-
   body,
 input,
 textarea,
@@ -1987,7 +1986,6 @@ select {
     font-size: 10pt;
     letter-spacing: 0;
   }
-
   h1,
 h2,
 h3,
@@ -1997,36 +1995,30 @@ h6 {
     font-size: 1.25em;
     margin: 0 0 0.4em 0;
   }
-
   h1 {
     font-size: 2.25em;
     line-height: 1.25em;
   }
-
   header {
     margin: 0 0 2em 0;
   }
   header > p {
     font-size: 1.25em;
   }
-
   footer {
     margin: 2.5em 0 0 0;
   }
   footer > p {
     font-size: 1.25em;
   }
-
   hr {
     margin: 1.5em 0 2em 0;
   }
-
   /* Section/Article */
   section,
 article {
     clear: both;
   }
-
   /* Button */
   input[type=button],
 input[type=submit],
@@ -2046,7 +2038,6 @@ button.large,
     font-size: 1.2em;
     letter-spacing: 0;
   }
-
   /* Social */
   ul.social {
     padding: 1em 0.5em 0 0.5em;
@@ -2060,7 +2051,6 @@ button.large,
   ul.social li a:before {
     background-color: transparent !important;
   }
-
   /* Actions */
   ul.actions {
     margin: 0;
@@ -2072,7 +2062,6 @@ button.large,
   ul.actions li:first-child {
     margin-top: 0;
   }
-
   /* Box */
   .box {
     padding: 30px 20px 30px 20px;
@@ -2101,13 +2090,11 @@ button.large,
     margin-left: auto !important;
     margin-right: auto !important;
   }
-
   /* Wrappers */
   .wrapper {
     padding: 3em 0;
     text-align: center;
   }
-
   /* Nav */
   #nav {
     height: 44px;
@@ -2122,7 +2109,6 @@ button.large,
   #nav a:hover {
     background-color: transparent;
   }
-
   /* Articles */
   #top {
     padding: 3em 0;
@@ -2132,11 +2118,9 @@ button.large,
     height: 15em;
     margin-bottom: 0;
   }
-
   #contact footer {
     margin: 0;
   }
-
   /* Copyright */
   #copyright {
     font-size: 1em;

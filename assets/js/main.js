@@ -4,16 +4,19 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+const successMessage = document.getElementById("success-msg")
+
 function copyEmail() {
 	const myEmail = document.getElementById("email").innerText;
 
 	navigator.clipboard.writeText(myEmail).then(() => {
 		console.log("Copied to clipboard");
 	});
-
-	document.getElementById("success-msg").style.display = "block";
+	
+	successMessage.style.display = "block";
 
 }
+
 
 (function($) {
 

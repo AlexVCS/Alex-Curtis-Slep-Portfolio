@@ -118,8 +118,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -243,6 +242,11 @@ html {
 .fa-envelope-square:hover,
 .fa-html5:hover {
 	color: #e44d26;
+}
+
+#novu-pr {
+	width: 200px;
+	height: 100px;
 }
 
 .photo-gallery {
