@@ -2411,3 +2411,11 @@ body > article {
     height: 350px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #novu-pr,
+  #couchers-pr {
+    width: 250px;
+    height: 250px;
+  }
+}
