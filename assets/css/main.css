@@ -197,7 +197,8 @@ html {
   color: #264de4;
 }
 
-#novu-pr {
+#novu-pr,
+#couchers-pr {
 	width: 500px;
 	height: 500px;
   border-radius: 5px;
@@ -2403,5 +2404,10 @@ body > article {
   }
   #copyright li:first-child {
     margin-top: 0;
+  }
+  #novu-pr,
+  #couchers-pr {
+    width: 350px;
+    height: 350px;
   }
 }
