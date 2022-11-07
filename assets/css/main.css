@@ -215,6 +215,10 @@ html {
   background-color: #dff2bf;
 }
 
+.fa-envelope-square {
+  color: #000e13;
+}
+
 .fa-envelope-square:hover,
 .fa-html5:hover {
   color: #e44d26;
@@ -268,7 +272,7 @@ select {
 a {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #000;
+  color: #000e13;
   text-decoration: underline;
 }
 
