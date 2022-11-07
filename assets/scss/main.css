@@ -166,6 +166,10 @@ html {
   box-sizing: inherit;
 }
 
+.fas {
+  color: #000e13;
+}
+
 .fa-js-square:hover {
   color: #121212;
 }
@@ -248,7 +252,6 @@ textarea,
 select {
   font-family: "Open Sans", sans-serif;
   line-height: 1.85em;
-  color: #888;
   font-weight: 300;
   font-size: 13pt;
 }
@@ -258,7 +261,7 @@ a {
   -webkit-transition: color .2s ease-in-out;
   -ms-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
-  color: #000;
+  color: #000e13;
   text-decoration: underline;
 }
 a img {
