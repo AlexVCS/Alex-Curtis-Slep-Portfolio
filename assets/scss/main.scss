@@ -863,14 +863,32 @@ ul.social {
 
 /* Open Source */
 
+.openSourceContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
 .card {
-  height: 200px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 220px;
   background-color: #f9fafb;
-  border: 1px solid red;
+  border-radius: 5px;
 }
 
 .view {
+   > a {
   color: #5899f8;
+  text-decoration: none;
+ }
+}
+
+.companyLogo {
+  height: 45px;
 }
 
 /* Actions */
@@ -1196,6 +1214,13 @@ body > article {
       margin: 0;
     }
   }
+
+  /* Open Source */
+  .openSourceContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
 }
 
 /* Medium */
@@ -1211,6 +1236,14 @@ body > article {
       margin: 0 auto 2em auto;
     }
   }
+
+  /* Open Source */
+  .openSourceContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  
 }
 
 /* Small */
