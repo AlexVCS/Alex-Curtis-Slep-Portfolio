@@ -206,9 +206,14 @@ html {
   cursor: pointer;
 }
 
-.fa-envelope-square:hover,
-.fa-html5:hover {
+.fa-envelope-square:hover {
   color: #e44d26;
+}
+
+#success-msg {
+  display: none;
+  color: #4BB543;
+  font-size: 20px;
 }
 
 #novu-pr {
