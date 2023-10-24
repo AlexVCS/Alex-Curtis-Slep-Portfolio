@@ -513,6 +513,7 @@ form {
       ("background .2s ease-in-out", "box-shadow .2s ease-in-out")
     );
     -webkit-appearance: none;
+    appearance: none;
     display: block;
     border: 0;
     padding: 0.75em;
@@ -666,6 +667,7 @@ button,
   );
   @include vendor("transition", "background-color .2s ease-in-out");
   -webkit-appearance: none;
+  appearance: none;
   position: relative;
   display: inline-block;
   color: #fff !important;
@@ -857,6 +859,36 @@ ul.social {
       }
     }
   }
+}
+
+/* Open Source */
+
+.openSourceContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 220px;
+  background-color: #f9fafb;
+  border-radius: 5px;
+}
+
+.view {
+   > a {
+  color: #5899f8;
+  text-decoration: none;
+ }
+}
+
+.companyLogo {
+  height: 45px;
 }
 
 /* Actions */
@@ -1182,6 +1214,13 @@ body > article {
       margin: 0;
     }
   }
+
+  /* Open Source */
+  .openSourceContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
 }
 
 /* Medium */
@@ -1197,6 +1236,14 @@ body > article {
       margin: 0 auto 2em auto;
     }
   }
+
+  /* Open Source */
+  .openSourceContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  
 }
 
 /* Small */
