@@ -1134,10 +1134,12 @@ body > article {
   }
 }
 
-#contact {
-  footer {
+#footer {
+  // footer {
     font-size: 0.9em;
-  }
+  // }
+  padding: 2em 0 2em 0;
+  text-align: center;
 }
 
 /* Copyright */
