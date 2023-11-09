@@ -1929,6 +1929,8 @@ body > article {
 }
 
 #footer {
+  background-color: #2e2d2d;
+  color: #FEFEFE;
   font-size: 0.9em;
   padding: 2em 0 2em 0;
   text-align: center;
