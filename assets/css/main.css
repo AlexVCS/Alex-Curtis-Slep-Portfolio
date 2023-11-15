@@ -276,7 +276,7 @@ a img {
 b,
 strong {
   font-weight: 600;
-  color: #3e3e3e;
+  color: #f5eded;
 }
 
 i,
@@ -308,7 +308,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3e3e3e;
+  color: #f5eded;
   margin: 0 0 0.75em 0;
 }
 
@@ -1804,7 +1804,7 @@ ul.actions li:first-child {
 }
 .wrapper.style1 {
   background-image: none;
-  background-color: #fff;
+  background-color: #1e1d1d;
 }
 .wrapper.style2 {
   background-color: #fafafa;
@@ -1870,7 +1870,6 @@ ul.actions li:first-child {
   transition: background-color .2s ease-in-out;
   position: relative;
   display: block;
-  color: #fff;
   text-decoration: none;
   outline: 0;
   font-weight: 600;

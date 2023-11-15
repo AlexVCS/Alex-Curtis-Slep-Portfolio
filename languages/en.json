@@ -1,0 +1,17 @@
+{
+  "about": "About",
+  "projects": "Projects",
+  "openSource": "Open Source Contributions",
+  "tagline": "Bonjour! I'm Alex Curtis-Slep.",
+  "bio": "I'm a software engineer, who leverages  React,  JavaScript, and  Node.js (and more) to create amazing apps.",
+  "projectsHeader": "PROJECTS",
+  "creditCard": "Credit Card App",
+  "yoga": "St. Pete Yoga Club",
+  "time": "Time Microservice",
+  "cv": "View my Résumé",
+  "contributionsHeader": "OPEN SOURCE CONTRIBUTIONS",
+  "contributionOne": "Merged 10/2023",
+  "contributionTwo": "Merged 10/2022",
+  "contributionFour": "Merged 08/2022",
+  "copyright": "&copy; Alex Curtis-Slep. All rights reserved."
+}
