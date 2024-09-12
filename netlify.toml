@@ -1,3 +1,3 @@
 [[redirects]]
   from = "/open-sauced"
-  to = "https://github.com/pulls?q=is:closed+is:pr+author:AlexVCS+user:open-sauced+archived:false+"
+  to = "https://github.com/open-sauced/hot/pulls?q=is:pr+is:closed+author:AlexVCS+"
