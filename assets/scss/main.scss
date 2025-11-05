@@ -660,6 +660,52 @@ article:last-child {
   }
 }
 
+.headshot-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.headshot {
+  img {
+    border-radius: 12px;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    background-color: #111;
+  }
+}
+
+.headshot-wrap {
+  .image.fit {
+    width: clamp(180px, 25vw, 320px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .headshot-wrap {
+    .image.fit {
+      width: clamp(160px, 30vw, 280px);
+    }
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .headshot-wrap {
+    .image.fit {
+      width: clamp(140px, 50vw, 240px);
+    }
+  } 
+}
+
+@media screen and (max-width: 480px) {
+  .headshot-wrap {
+    .image.fit {
+      width: min(70%, 200px);
+    }
+  } 
+}
 /* Button */
 
 input[type="button"],
