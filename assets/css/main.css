@@ -1,13 +1,14 @@
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-  /*
-    Miniport by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  */
-  html,
-  body,
-  div,
-  span,
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("fontawesome-all.min.css");
+/*
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+html,
+body,
+div,
+span,
 applet,
 object,
 iframe,
@@ -177,8 +178,12 @@ html {
   background: #3178c6;
 }
 
-.fa-bluesky:hover {
-  color: #0085ff;
+.fa-node:hover {
+  color: #5FA04E;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
 }
 
 .fa-github:hover {
@@ -1488,6 +1493,40 @@ article:last-child {
   width: auto;
 }
 
+.headshot-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.headshot img {
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 4/5;
+  background-color: #111;
+}
+
+.headshot-wrap .image.fit {
+  width: clamp(180px, 25vw, 320px);
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .headshot-wrap .image.fit {
+    width: clamp(160px, 30vw, 280px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .headshot-wrap .image.fit {
+    width: clamp(140px, 50vw, 240px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .headshot-wrap .image.fit {
+    width: min(70%, 200px);
+  }
+}
 /* Button */
 input[type=button],
 input[type=submit],
@@ -1758,7 +1797,6 @@ ul.actions li:first-child {
 /* Icons */
 .icon {
   text-decoration: none;
-  text-decoration: none;
 }
 .icon:before {
   -moz-osx-font-smoothing: grayscale;
@@ -1771,6 +1809,9 @@ ul.actions li:first-child {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+.icon {
+  text-decoration: none;
 }
 .icon:before {
   font-size: 1.25em;
