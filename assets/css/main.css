@@ -1503,13 +1503,18 @@ article:last-child {
 .headshot img {
   border-radius: 12px;
   object-fit: cover;
+  object-position: center;
   aspect-ratio: 4/5;
   background-color: #111;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .headshot-wrap .image.fit {
   width: clamp(180px, 25vw, 320px);
   max-width: 100%;
+  aspect-ratio: 4/5;
 }
 
 @media screen and (max-width: 1024px) {
