@@ -671,8 +671,12 @@ article:last-child {
   img {
     border-radius: 12px;
     object-fit: cover;
+    object-position: center;
     aspect-ratio: 4 / 5;
     background-color: #111;
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
 
@@ -680,31 +684,26 @@ article:last-child {
   .image.fit {
     width: clamp(180px, 25vw, 320px);
     max-width: 100%;
+    aspect-ratio: 4 / 5;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .headshot-wrap {
-    .image.fit {
-      width: clamp(160px, 30vw, 280px);
-    }
-  } 
+  .headshot-wrap .image.fit {
+    width: clamp(160px, 30vw, 280px);
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .headshot-wrap {
-    .image.fit {
-      width: clamp(140px, 50vw, 240px);
-    }
-  } 
+  .headshot-wrap .image.fit {
+    width: clamp(140px, 50vw, 240px);
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .headshot-wrap {
-    .image.fit {
-      width: min(70%, 200px);
-    }
-  } 
+  .headshot-wrap .image.fit {
+    width: min(70%, 200px);
+  }
 }
 /* Button */
 
